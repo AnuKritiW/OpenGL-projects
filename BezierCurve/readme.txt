@@ -1,27 +1,22 @@
-Name: Anu Kriti Wadhwa
-Matric number: A0170594Y
+This file draws Bezier curves. Click on the window to create a control point. Once there are 4 or more control points, a bezier curve is formed. 
 
-What you are drawing:
-- savefile.txt is the batman symbol
-- objects over it are black circles to outline the symbol
+Left mouse click: Add a control point
+Q: Quit
+P: Toggle displaying control points
+L: Toggle displaying control lines
+E: Erase all points (Clear)
+U: Undo the visible last point
+Y: Redo the visible last point
+D: Toggle delete mode; delete mode enables you to delete a point from the middle
+C: Toggle C1 continuity
+T: Toggle displaying tangent vectors
+O: Toggle displaying objects
+R: Read in control points from "savefile.txt"
+W: Write control points to "savefile.txt"
 
-Primitives and transformations you have used:
-GL_LINE_STRIP
-GL_POLYGON
-GL_POINTS
-GL_LINES
-glRotatef
-glTranslatef
+savefile.txt is currently the Batman symbol
 
-Methods you have modified:
-- display(void) modified to have appropriate function calls
-- keyboard (unsigned char key, int x, int y) modified to make delete (d), undo(u) and redo(y) keys functional
-- mouse(int button, int state, int x, int y) modified to enable deleting of points
-  press 'd' to toggle delete mode. When in delete mode, click on existing vertices to delete them
-  when you delete from the middle, all excess points will also be deleted
-
-Methods you have created:
-- drawCircle(float radius, float r, float g, float b);
+Key Methods created:
 - drawCtrlPts();
   draws control points
 - drawCtrlLines();
@@ -49,9 +44,3 @@ Methods you have created:
   copies points from ptList to c1List
 - deletePt(int x, int y);
   deletes point from middle of array
-
-Coolest thing(s) in your drawing:
-- undo function removes the last visible vertex
-- redo function adds the last undone vertex
-- delete function allows vertex to be deleted from middle and deletes all excess points
-- savefile.txt is the batman symbol
