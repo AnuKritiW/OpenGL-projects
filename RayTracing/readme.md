@@ -10,5 +10,5 @@ What I am drawing:
 - third scene is 3 spheres and a cylinder. Shadows are visible.
 
 Keys:
-S to go to next scene
-Q to quit
+- S to go to next scene
+- Q to quit
