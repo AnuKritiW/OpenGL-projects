@@ -1,3 +1,7 @@
+#Solar System
+
+![solarsystem](https://github.com/AnuKritiW/OpenGL-projects/blob/master/Solar-System-Animation/SolarSystem.gif)
+
 This file draws the solar system with moving planets and twinkling stars.
 
 The stars are randomly generated and twinkle. They also have different transparency.

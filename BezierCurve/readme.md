@@ -1,4 +1,8 @@
-This file draws Bezier curves. Click on the window to create a control point. Once there are 4 or more control points, a bezier curve is formed. 
+# Bezier Curve
+
+![bezier](https://github.com/AnuKritiW/OpenGL-projects/blob/master/BezierCurve/bezier.gif)
+
+This file draws Bezier curves. Click on the window to create a control point. Once there are 4 or more control points, a bezier curve is formed.
 
 Left mouse click: Add a control point
 Q: Quit

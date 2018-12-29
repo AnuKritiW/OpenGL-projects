@@ -1,8 +1,21 @@
+# Illumination and Shading
+
 What I am drawing:
 1. Sphere (given)
-2. Ellipsoid
-3. Eve from WALL-E
-4. Towers of Hanoi but only one of the stacks (kind of like a kid's toy)
+
+![sphere](https://github.com/AnuKritiW/OpenGL-projects/blob/master/Illumination-and-Shading/sphere.gif)
+
+2. Ellipsoid:
+
+![ellipsoid](https://github.com/AnuKritiW/OpenGL-projects/blob/master/Illumination-and-Shading/ellipsoid.gif)
+
+3. Eve from WALL-E:
+
+![eve](https://github.com/AnuKritiW/OpenGL-projects/blob/master/Illumination-and-Shading/eve.gif)
+
+4. Towers of Hanoi but only one of the stacks.
+
+![hanoi](https://github.com/AnuKritiW/OpenGL-projects/blob/master/Illumination-and-Shading/hanoi.gif)
 
 Keys:
 1-4: Draw different objects
